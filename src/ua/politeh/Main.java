@@ -143,9 +143,9 @@ public class Main {
     }
 
     static String checkString(Scanner in, String[] strings) {
+        boolean check = false;
         while (true) {
             String s = in.nextLine();
-            boolean check = false;
             if (!(strings == null)) {
                 for (String ss :
                         strings) {
