@@ -139,9 +139,7 @@ public class Main {
             } catch (NumberFormatException e) {
                 System.out.println("Incorrect input, please try again!");
             }
-
         }
-
     }
 
     static String checkString(Scanner in, String[] strings) {
