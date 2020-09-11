@@ -18,7 +18,7 @@ public class Main {
 
         while (true) {
 
-            System.out.println(filmLibrary.toString());
+            //System.out.println(filmLibrary.toString());
             System.out.println("Hello, " +
                     "enter number from the list\n" +
                     "\n1 Add data to list\n" +

@@ -74,8 +74,8 @@ public class FilmLibrary {
         boolean check = false;
         for (int i = 0; i < films.size(); i++) {
             if (films.get(i).getYearFissue() <= 2020 && films.get(i).getYearFissue() >= (2020 - X)) {
-                //System.out.println(films.get(i).toString());
-                System.out.println(films.get(i).getNumFviewer());
+                System.out.println(films.get(i).toString());
+                //System.out.println(films.get(i).getNumFviewer());
                 check = true;
             }
         }
