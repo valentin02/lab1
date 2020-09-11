@@ -33,7 +33,7 @@ public class Main {
                     addFilm(filmLibrary, in);
                     break;
                 case 2:
-                    filmLibrary.toString();
+                    System.out.println(filmLibrary.toString());
                     break;
                 case 3:
                     deleteByName(filmLibrary, in);
