@@ -202,7 +202,7 @@ public class Main {
         float delta;
 
         String sign = checkString(in, new String[]{"add", "remove"});
-        if (sign.equals("add")) {
+        if (sign.toLowerCase().equals("add")) {
             delta = 1;
         } else if (sign.equals("remove")) {
             delta = -1;
